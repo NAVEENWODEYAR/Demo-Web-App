@@ -26,5 +26,12 @@ public class LoginServlet extends HttpServlet{
 		PrintWriter pw = resp.getWriter();
 					pw.write("Name"+name);
 					pw.write("Password"+password);
+					
+		if(name.equals("Test") && password.equals("tesT"))
+		{
+			resp.sendRedirect("/profile.html");
+		}else {
+			resp.sendRedirect("/error.html");
+		}
 	}
 }
