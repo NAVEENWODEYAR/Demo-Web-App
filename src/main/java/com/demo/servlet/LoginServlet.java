@@ -1,6 +1,7 @@
 package com.demo.servlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -19,6 +20,11 @@ public class LoginServlet extends HttpServlet{
 	
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		super.service(req, resp);
+		String name = req.getParameter("name");
+		String password = req.getParameter("password");
+		
+		PrintWriter pw = resp.getWriter();
+					pw.write("Name"+name);
+					pw.write("Password"+password);
 	}
 }
