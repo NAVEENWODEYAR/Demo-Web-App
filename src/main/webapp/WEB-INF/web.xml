@@ -18,6 +18,10 @@
     <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
     
     <!-- location of the struts-config.xml -->
+    <init-param>
+    	<param-name>config</param-name>
+    	<param-value>/WEB-INF/struts-config.xml</param-value>
+    </init-param>
   </servlet>
   <servlet-mapping>
     <!--<servlet-name>RegisterServlet</servlet-name>
