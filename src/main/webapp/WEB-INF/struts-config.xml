@@ -4,5 +4,9 @@
           "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
           
 <struts-config>
-	
+	<!-- 
+	<action-mapping>
+		<action path="/hello" type="com.demo.form.HelloWorld"></action>
+	</action-mapping>
+	 -->
 </struts-config>
