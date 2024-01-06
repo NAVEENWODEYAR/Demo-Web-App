@@ -11,12 +11,18 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>RegisterServlet</display-name>
+   <!--  <display-name>RegisterServlet</display-name>
     <servlet-name>RegisterServlet</servlet-name>
-    <servlet-class>com.demo.servlet.RegisterServlet</servlet-class>
+    <servlet-class>com.demo.servlet.RegisterServlet</servlet-class>  -->
+    <servlet-name>ActionServlet</servlet-name>
+    <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+    
+    <!-- location of the struts-config.xml -->
   </servlet>
   <servlet-mapping>
-    <servlet-name>RegisterServlet</servlet-name>
-    <url-pattern>/RegisterServlet</url-pattern>
+    <!--<servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern> -->
+    <servlet-name>ActionServlet</servlet-name>
+    <url-pattern>*.do</url-pattern>
   </servlet-mapping>
 </web-app>
