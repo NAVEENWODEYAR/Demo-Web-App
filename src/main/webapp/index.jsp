@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body style="background-color:blue">
 	<h2 style="color: gray;font-size: 2rem">Registration Form</h2>
 		<form action="register" method="get">
 			<label>Enter your name</label>
