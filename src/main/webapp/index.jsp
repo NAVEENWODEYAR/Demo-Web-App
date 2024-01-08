@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body style="background-color:blue">
-	<h2 style="color: gray;font-size: 2rem">Registration Form</h2>
+	<h2 style="color: gray;font-size: 5rem">Registration Form</h2>
 		<form action="register" method="get">
 			<label>Enter your name</label>
 			<input type="text" name="name" placeholder="Name"/><br><br>
