@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet{
 
 	/**
-	 * @author Naveen Wodeyar
+	 * @author Naveen K Wodeyar
 	 * @Date 04-01-2024
 	 */
 	private static final long serialVersionUID = 2309124040007562096L;
