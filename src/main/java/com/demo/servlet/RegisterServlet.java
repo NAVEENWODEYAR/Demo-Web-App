@@ -8,7 +8,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author Naveen Wodeyar
+ * @author Naveen K Wodeyar
+ * @Date 17-01-2024
  */
 @WebServlet("/register")
 public class RegisterServlet extends HttpServlet {
