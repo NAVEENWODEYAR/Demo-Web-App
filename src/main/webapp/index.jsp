@@ -6,11 +6,11 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body style="background-color:blue">
+<body style="background-color:navy;">
 	<h2 style="color: gray;font-size: 5rem">Registration Form</h2>
 		<form action="register" method="get" autocomplete="of">
 			<label>Enter your name</label>
-			<input type="text" name="name" placeholder="Name"/><br><br>
+			<input type="text" name="name" placeholder="Name" autocapitalize="on" autocomplete="off"/><br><br>
 			<label>Enter your mail</label>
 			<input type="email" name=mail placeholder="E-Mail"/><br><br>
 			<label>Choose your password</label>
