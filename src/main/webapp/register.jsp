@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1 style="color: blue;font-size: larger;">Registration Page</h1>
-	<form action="register" method="get" autocomplete="off">
+	<form action="logIn" method="post" autocomplete="off">
 		Name:<input type="text" name="name" placeholder="Name" required autocomplete="off"/><br><br>
 		Mail:<input type="email" name="mail" placeholder="E-Mail" autocomplete="off" required/><br><br>
 		Password:<input type="password" name="password" placeholder="Password" autocomplete="off" required/><br><br>
