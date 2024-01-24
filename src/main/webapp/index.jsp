@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Ram Mandir</title>
 </head>
-<body style="background-color:navy;">
+<body>
 	<h2 style="color: gray;font-size: 5rem">Registration Form</h2>
 		<form action="register" method="get" autocomplete="of">
 			<label>Enter your name</label>
