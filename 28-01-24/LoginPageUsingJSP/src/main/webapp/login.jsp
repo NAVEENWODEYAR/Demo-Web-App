@@ -8,7 +8,7 @@
 </head>
 <body>
 	<form action="LoginServlet" method="post" autocomplete="off">
-		<table>
+		<table style="background-color: olive; background-size: 20px;">
 			<tr><td> Enter name <input type="text" name="name" id="i1" autocomplete="new-password"/></td></tr>
 			<tr><td> Enter password <input type="password" name="pwd" id="i2" autocomplete="new-password"/></td></tr>
 			<tr><td> <input type="submit" name="submit" value="SUBMIT">
