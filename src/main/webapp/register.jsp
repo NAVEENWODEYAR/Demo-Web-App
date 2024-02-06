@@ -9,10 +9,10 @@
 <body>
 	<h1 style="color: blue;font-size: larger;">Registration Page</h1>
 	<form action="logIn" method="post" autocomplete="off" id="registerFrom">
-		Name:<input type="text" name="name" placeholder="Name" required autocomplete="off"/><br><br>
+		Name:<input type="text" name="name" placeholder="Name" required autocomplete="new-password"/><br><br>
 		Mail:<input type="email" name="mail" placeholder="E-Mail" autocomplete="off" required/><br><br>
 		Password:<input type="password" name="password" placeholder="Password" autocomplete="off" required/><br><br>
-		<input type="submit" value="SUBMIT">
+		<input type="submit" value="SUBMIT" tabindex="1">
 	</form>
 </body>
 <script>
