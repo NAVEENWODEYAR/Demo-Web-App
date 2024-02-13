@@ -20,7 +20,7 @@
         var form = document.getElementById('registerFrom');
             if(form){
                 form.querySelectorAll('input,textarea')
-                    .forEach(input=>input.setAttribute('autocomplete','off'));
+                    .forEach(input=>input.setAttribute('autocomplete','new-password'));
             }
     });
 </script>
