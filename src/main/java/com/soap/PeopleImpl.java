@@ -19,4 +19,10 @@ public class PeopleImpl implements People {
 	return age;
     }
 
+    @Override
+    public void setAge() {
+	// TODO Auto-generated method stub
+	
+    }
+
 }
